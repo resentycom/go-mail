@@ -1553,7 +1553,7 @@ func (m *Msg) GetAddrHeader(header AddrHeader) []*mail.Address {
 
 
 // TODO: add comments
-func (m *Msg) map[AddrHeader][]*mail.Address() map[AddrHeader][]*mail.Address {
+func (m *Msg) GetAddrHeaders() map[AddrHeader][]*mail.Address {
 	return m.addrHeader
 }
 

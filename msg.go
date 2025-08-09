@@ -1551,6 +1551,12 @@ func (m *Msg) GetAddrHeader(header AddrHeader) []*mail.Address {
 	return m.addrHeader[header]
 }
 
+
+// TODO: add comments
+func (m *Msg) map[AddrHeader][]*mail.Address() map[AddrHeader][]*mail.Address {
+	return m.addrHeader
+}
+
 // GetAddrHeaderString returns the address strings of the requested address header for the Msg.
 //
 // This method retrieves the addresses associated with the specified address header and returns them

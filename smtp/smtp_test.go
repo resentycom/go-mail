@@ -37,8 +37,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/wneessen/go-mail/internal/pbkdf2"
-	"github.com/wneessen/go-mail/log"
+	"github.com/resentycom/go-mail/internal/pbkdf2"
+	"github.com/resentycom/go-mail/log"
 )
 
 const (

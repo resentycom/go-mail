@@ -19,7 +19,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/wneessen/go-mail/log"
+	"github.com/resentycom/go-mail/log"
 )
 
 func TestNewClientNewVersionsOnly(t *testing.T) {

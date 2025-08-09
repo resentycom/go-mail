@@ -1701,6 +1701,18 @@ func (m *Msg) GetGenHeader(header Header) []string {
 	return m.genHeader[header]
 }
 
+// GetGenHeaders returns all the generic headers of the Msg.
+//
+// This method retrieves the list of generic headers of the message.
+// It returns a slice of strings representing the header's values.
+//
+//
+// Returns:
+//   - A map that contains all the generic headers.
+func (m *Msg) GetGenHeaders() map[Header][]string {
+	return m.genHeader
+}
+
 // GetParts returns the message parts of the Msg.
 //
 // This method retrieves the list of parts that make up the email message. Each part may represent

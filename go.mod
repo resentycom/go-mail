@@ -2,7 +2,7 @@
 //
 // SPDX-License-Identifier: MIT
 
-module github.com/wneessen/go-mail
+module github.com/resentycom/go-mail
 
 go 1.20
 
